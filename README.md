@@ -1,4 +1,4 @@
-# Cryptography System Overview
+# SDEV - Cryptography System Overview
 
 This repository contains the cryptographic engine used by our company to secure client data. The core logic is implemented in `main.py`, leveraging the ChaCha20-Poly1305 authenticated encryption algorithm and AES GCM for file streaming encryption.
 
@@ -23,8 +23,6 @@ Publishing this code does **not** weaken the security of your encrypted data. Ac
 For more information, see:
 - [OWASP Cheat Sheet Series: Cryptographic Storage](https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html)
 - [Information Security Stack Exchange](https://security.stackexchange.com/)
-
----
 
 ## Suggestion
 

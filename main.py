@@ -362,6 +362,8 @@ print(f"Encryption successful in {end_enc - start_enc:.2f} seconds")
 
 time.sleep(5) # To manually check that the file is encrypted.
 
+# 4) Decrypting a file:	
+
 start_dec = time.time()
 
 SDEVCrypto().decrypt_file(
