@@ -13,8 +13,6 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from pathlib import Path
 
-from typing import Optional
-
 class SDEVCrypto:
 
     def __init__(self) -> None:
@@ -236,7 +234,7 @@ class SDEVCrypto:
         filepath_to_decrypt: str,
         password: str,
         printable: bool = True,
-        special_filepath_output: Optional[str] = None,
+        special_filepath_output: str = None,
         delete_initial_file: bool = True
     ) -> bool:
 
